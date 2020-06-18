@@ -1,0 +1,10 @@
+<div>
+    <ui-prop tooltip="{{t('config_tool_tips')}}" name="{{t('config_path')}}">
+        <div class="flex-1 layout horizontal center">
+            <ui-input class="flex-2" v-value="config.configPath"></ui-input>
+            <ui-button class="tiny" v-on:confirm="_onChooseDistPathClick">
+                ···
+            </ui-button>
+        </div>
+    </ui-prop>
+</div>
